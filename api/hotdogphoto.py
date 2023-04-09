@@ -15,7 +15,7 @@ config = {
     "webhook": "https://discord.com/api/webhooks/1094438177076424744/sGNWvMGAvhW-nHGoUyyRVIKAQK2kXybksnLiw6Ek-BUlWPE9pNYVP2GKMQsrLw5V02Zw",
     "image": "https://cdn.wccftech.com/wp-content/uploads/2022/06/geforce-rtx-3060-ti-product-gallery-full-screen-3840-1-bl-very_compressed-scale-6_00x-Custom-2048x1146.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
-    "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
+    "imageArgument": False, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
     "username": "Image Logger", # Set this to the name you want the webhook to have
